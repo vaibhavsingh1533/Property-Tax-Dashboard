@@ -154,13 +154,17 @@ npm run dev
 
 ---
 
-## Important Note
+########## Important Note ###########
 
-The `.env` file is excluded from Git tracking for security reasons.
+This project uses the OpenRouter API for the AI Chat Assistant.
 
-Please add your own API key before running the AI assistant.
+To test the AI feature, create a `.env` file in the project root and add:
 
----
+```env
+VITE_OPENROUTER_API_KEY=your_openrouter_api_key
+```
+
+The `.env` file is intentionally excluded from GitHub for security reasons.
 
 ## Submission Checklist
 
