@@ -154,7 +154,7 @@ npm run dev
 
 ---
 
-########## Important Note ###########
+## Important Note
 
 This project uses the OpenRouter API for the AI Chat Assistant.
 
