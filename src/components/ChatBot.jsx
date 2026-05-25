@@ -93,7 +93,7 @@ Instructions:
 
     } catch (error) {
       console.log(error.response?.data || error.message);
-      setAnswer("AI connection failed.");
+      setAnswer("AI service unavailable. Please configure VITE_OPENROUTER_API_KEY in the .env file.");
     } finally {
       setLoading(false);
     }
